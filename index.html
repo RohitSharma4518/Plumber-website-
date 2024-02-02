@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plumber</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script>
+        const buttonRight = document.getElementById('slideRight');
+        const buttonLeft = document.getElementById('slideLeft');
+
+        buttonRight.onclick = function () {
+        document.getElementById('scrollcontent').scrollLeft += 20;
+        };
+        buttonLeft.onclick = function () {
+        document.getElementById('scrollcontent').scrollLeft -= 20;
+        };
+    </script>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.jpg" alt="Logo">
+        <div class="header-right">
+          <a><b>About MFP &nbsp;&nbsp;</b></a>&nbsp;&nbsp;
+          <a><b>Services &nbsp;</b><i class="arrow down"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a><b>Promotions &nbsp;&nbsp;</b></a>&nbsp;&nbsp;
+          <a><b>Contact us &nbsp;&nbsp;</b></a>
+          <button id="btn5"><i class="bi bi-telephone-fill" style="font-size: 22px;"></i>&nbsp;call</button>
+        </div>
+      </div>
+
+        <div id="page1">
+            <div id="startpage">
+                <div id="head">
+                    <p><b>Plumbing and Heating<br>services</b></p>
+                </div>
+                <div id="mid">
+                    Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Mollitia ducimus dicta <br>expedita iste rerum dolor?
+                </div>
+                <div id="end">
+                    <button id="btn3">REQUEST A JOB ESTIMATE</button>
+                </div>
+            </div>
+            <img src="1st-sec-bg.jpg" id="img1" alt="">
+        </div>
+        <div id="page2">
+            <div class="grid-container">
+                <div class="grid-item1">
+                    <h1 style="color: green;">QUALITY SERVICE &<BR>PROFESSIONAL<BR>REPAIRS</h1>
+                    <h6 style="color: purple;">My Favorite Plumber services <u>Downingtown</u><br><u>West Chester</u> and <u>Paoli areas.</u></h6>
+                </div>
+                <div class="grid-item2">
+                    <h6>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Consectetur nesciunt obcaecati<br> corrupti velit illum quas accusantium sint<br>, asperiores reprehenderit odio officiis perspiciatis<br> eos reiciendis delectus veritatis, deleniti cupiditate, aspernatur deserunt!</h6><br>
+                    <h6><u>Read more</u></h6>
+                </div>
+              </div>
+        </div>
+
+        <div id="page3">
+            <div id="content">
+                <center><h2><b>Our Plumbing Services</b></h2>
+                    <br>
+                    <br>
+                <p>We offer a variety of commercial and residential plumbing services. When you need flat rate<br> pricing. free estimates, and dependable professional ready to serve. come to the plumblers you <br>can trust
+                </p>
+                <br>
+                <br>
+                </center>
+                <div class="grid-container2">
+                    <div class="grid-item">
+                        <img src="3rd-sec-icon1.svg" alt="" height="100px" width="100px">
+                        <h4>BACKFLOW SERVICES</h4>
+                    </div>
+                    <div class="grid-item">
+                        <img src="3rd-sec-icon2.svg" alt="" height="100px" width="100px">
+                        <h4>BASEMENT AND <br> CRAWLSPACE</h4>
+
+                    </div>
+                    <div class="grid-item">
+                        <img src="3rd-sec-icon3.svg" alt="" height="100px" width="100px">
+                        <h4>BATHROOM</h4>
+
+                    </div>
+                    <div class="grid-item">
+                        <img src="3rd-sec-icon4.svg" alt="" height="100px" width="100px">
+                        <h4>KITCHEN</h4>
+
+                    </div>
+                    <div class="grid-item">
+                        <img src="3rd-sec-icon5.svg" alt="" height="100px" width="100px">
+                        <br>
+                        <h4>WATER <br> HEATER</h4>
+
+                    </div>
+                    <div class="grid-item">
+                        <img src="3rd-sec-icon6.svg" alt="" height="100px" width="100px">
+                        <h4>SEPTIC TANK/SEWER</h4>
+
+                    </div>
+                    <div class="grid-item">
+                        <img src="3rd-sec-icon7.svg" alt="" height="100px" width="100px">
+                        <h4>PIPE INSTALLATION & <br> REPAIR</h4>
+
+                    </div>
+                    <div class="grid-item">
+                        <img src="3rd-sec-icon8.svg" alt="" height="100px" width="100px">
+                        <h4>LAUNDRY ROOM</h4>
+
+                    </div>
+                    <div class="grid-item" style="opacity: 0;">
+                    </div>
+                    <div class="grid-item">
+                        <img src="3rd-sec-icon9.svg" alt="" height="100px" width="100px">
+                        <h4>WATER WELLS AND <br>PUMPS</h4>
+
+                    </div>
+                    <div class="grid-item">
+                        <img src="3rd-sec-icon10.svg" alt="" height="100px" width="100px">
+                        <h4>HEATING AND <br>COOLING</h4>
+
+                    </div>
+                </div>
+            </div>
+            <img src="3rd-sec-bg.jpg" id="img3" alt="">
+        </div>
+
+        <div id="phonecall">
+            <div class="grid-container3">
+                <div class="grid-item3">
+                    <h2 style="color: white;">We are just a Phone Call Away!</h2>
+                    <button id="btn4">REQUEST A JOB ESTIMATE</button>
+                </div> 
+              </div>
+        </div>
+
+        <div id="offer">
+            <div class="flex-container">
+                <div id="div1">
+                    <div style="color: green;">
+                        <h1>What We Offer</h1>
+                        <h3>
+                            We are dedicated to providing<br>
+                            comprehensive plumber, electrician and<br>
+                            heating services.
+                        </h3>
+                    </div>
+                    <div style="margin-top: 40px; padding-left: -200px;">
+                        <ul style="list-style: none; line-height: 20px;">
+                            <li><img src="4h-sec-icon.svg" alt="" height="30px" width="30px">&nbsp;&nbsp;No fee local London call-outs</li>
+                            <br>
+                            <li><img src="4h-sec-icon.svg" alt="" height="30px" width="30px">&nbsp;&nbspReliable five star rated service</li><br>
+                            <li><img src="4h-sec-icon.svg" alt="" height="30px" width="30px">&nbsp;&nbspAffordable services with fix-priced quotes</li><br>
+                            <li><img src="4h-sec-icon.svg" alt="" height="30px" width="30px">&nbsp;&nbspFully certified, accredited and insured work</li><br>
+                            <li><img src="4h-sec-icon.svg" alt="" height="30px" width="30px">&nbsp;&nbsp27/7 emergency cover</li><br>
+                            <li><img src="4h-sec-icon.svg" alt="" height="30px" width="30px">&nbsp;&nbspGurantees of upto two years</li>
+                        </ul>
+                    </div>
+                    <button id="btn6">DISCOVER MORE</button>
+                </div>
+                <div id="div2">
+                    <img src="4th-sec-img.png" alt="">
+                </div>
+            </div>
+            <img src="4th-sec-bg.jpg" id="offerimg" alt="">
+        </div>    
+
+        
+        <div id="page4" style="margin-bottom: 40px;">
+            <center>
+                <img src="5th-sec-img.png" alt="">
+                <h2 style="color: green; margin-top: 50px;">
+                    I am a realtor and the hot water heater was<br>
+                    leaking at our final walk through prior to<br>
+                    settlement. We called several plumbers for<br>
+                    their availability Marybeth was able to
+                </h2>
+                <h5 style="color: green; margin-top: 50px;">Melissa Collins</h5><p>Customer</p>
+            </center>
+        </div>
+
+
+        <div id="main5" style="background-color: rgb(237, 232, 232); padding: 25px 75px 0px 50px">
+            <h4 style="color: grey;">BRANDS WE WORK WITH</h4>
+            <div id="scrollable">
+                <p id="scrollcontent">
+                    <div class="grid-container10">
+                        <div class="grid-item10">
+                            <img src="6th-sec-logo1.png" alt="">
+                        </div>
+                        <div class="grid-item10">
+                            <img src="6th-sec-logo2.png" alt="">
+                        </div>
+                        <div class="grid-item10">
+                            <img src="6th-sec-logo3.png" alt="">
+                        </div>  
+                        <div class="grid-item10">
+                            <img src="6th-sec-logo4.png" alt="">
+                        </div>
+                        <div class="grid-item10">
+                            <img src="6th-sec-logo5.png" alt="">
+                        </div>
+                        <div class="grid-item10">
+                            <img src="6th-sec-logo6.png" alt="">
+                        </div>  
+                        <div class="grid-item10">
+                            <img src="6th-sec-logo7.png" alt="">
+                        </div>
+                        <div class="grid-item10">
+                            <img src="6th-sec-logo8.png" alt="">
+                        </div>
+                        <div class="grid-item10">
+                            <img src="6th-sec-logo9.png" alt="">
+                        </div>  
+                      </div>
+                </p>
+            </div>
+            <div id="slide">
+                <div style="margin-right: 5px;">
+                    <i class="bi bi-circle-fill" style="color: green;"></i></i>
+                    <i class="bi bi-circle-fill" style="color: grey;"></i></i>
+                </div>
+                <div>
+                    <hr style="border: 2px solid black; width: 1600px;">
+                </div>
+                <div style="margin-left: 5px;">
+                    <img src="6th-sec-back-arrow.png" alt="" height="70px" width="70px">
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <img src="6th-sec-next-arrow.png" alt="" height="70px" width="70px">
+                </div>
+            </div>
+        </div>
+            
+
+        <div id="services">
+            <div id="servicepic1">
+                <img src="7th-sec-img1.jpg" alt="">
+            </div>
+            <div id="servicepic2">
+                <div id="servicetext1">
+                    <h3>Prices that won't</h3>
+                    <h3>drain your wallet</h3>
+                    <hr>
+                    <h5>Recent Discoutns & &nbsp;&nbsp;<i class="bi bi-arrow-right"></i></h5>   </h5>
+                    <h5>Promotions</h5>
+                </div>
+                <img src="7th-sec-img2.jpg" alt="">
+            </div>
+            <div id="servicepic3">
+                <div id="servicetext3">
+                    <h2>Fast Service is a </h2>
+                    <h2>Call away</h2>
+                    <hr>
+                    <h5>Request a free job &nbsp;&nbsp;<i class="bi bi-arrow-right"></i></h5>
+                    <h5>Estimate</h5>
+                </div>
+                
+            </div>                          
+        </div>
+
+
+            <div id="plumimg">
+                <div id="imgtext">
+                    <p style="color: green;">YOUR</p>
+                    <p style="color: white;">PLUMBING</p>
+                    <p style="color: green;">WORRIES</p>
+                    <p style="color:white">ENDS HERE</p>
+                </div>
+                <img src="8th-sec-bg.jpg" id="plumberimg" alt="" >
+            </div>
+        <div id="details">
+            <div>
+                <center>
+                    <h4>DOWNINGTOWN</h4>
+                <button id="btn2"><i class="bi bi-telephone-fill" style="font-size: 22px;"></i>&nbsp;CALL 610-269-5874</button>
+                </center>
+            </div>
+            <div>
+                <center>
+                    <h4>WEST CHESTER</h4>
+                <button id="btn2"><i class="bi bi-telephone-fill" style="font-size: 22px;"></i>&nbsp;CALL 610-431-977</button>
+                </center>
+            </div>
+            <div>
+                <center>
+                    <h4>PAOLI</h4>
+                <button id="btn2"><i class="bi bi-telephone-fill" style="font-size: 22px;"></i>&nbsp;CALL 610-269-3040</button>
+                </center>
+            </div>
+        </div>
+        
+        <div><br><br>
+            <center>
+                <h2 style="color: green;">Our Blogs</h2>
+            </center>
+        </div>
+        <div id="blog">
+            <div class="blogs">
+                <img src="10th-sec-img1.jpg" alt="">
+                <h3>Lorem ipsum dolor adipisicing elit. Ut, natus.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit alias voluptate voluptates quasi, modi facere!</p>
+            </div>
+            <div class="blogs">
+                <img src="10th-sec-img2.jpg" alt="">
+                <h3>Lorem ipsum dolor adipisicing elit. Ut, natus.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit alias voluptate voluptates quasi, modi facere!</p>
+            </div>
+            <div class="blogs">
+                <img src="10th-sec-img3.jpg" alt="">
+                <h3>Lorem ipsum dolor adipisicing elit. Ut, natus.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit alias voluptate voluptates quasi, modi facere!</p>
+            </div>
+
+        </div>
+
+        <div id="contact">
+            <div id="left">
+                <h4>Plumbing Problems?</h4>
+                <hr style="color: white;">
+                <ul>
+                    <li>Fast Service</li>
+                    <li>Upfront Competitive Pricing</li>
+                    <li>Family owned and operated business</li>
+                </ul>
+            </div>
+            <div id="right">
+                    <h4>Request a call back</h4>
+                    <br>
+                    <input type="text" placeholder="Full Name">
+                    <br>
+            
+                    <input type="text" placeholder="Phone"><br>
+                    <button id="btn1">Request a call back</button>
+            </div>
+        </div>
+
+    </main>
+    <footer id="mainfoot">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+            <p>@ 2024 My Favorite Plumber All Rights Reserved.</p>
+        </div>
+        <div id="footer_list">
+            <ul>
+                <li>ABOUT US</li>
+                <li>TESTIMONIALS</li>
+                <li>COUPONS</li>
+            </ul>
+        </div>
+        <div class="footer_list">
+            <ul>
+                <li>BACKFLOW SERVICES</li>
+                <li>BASEMENT AND CRAWLSPACE</li>
+                <li>BATHROOM</li>
+                <li>kITCHEN</li>
+                <li>LAUNDRY ROOM</li>
+            </ul>
+        </div>
+        <div class="footer_list">
+            <ul>
+                <li>PIPE INSTALLATIONS & REPAIR</li>
+                <li>SEPTIC RANK/SEWER</li>
+                <li>WATER HEATERS</li>
+                <li>WATER WELLS AND PUMPS</li>
+                <li>HEATING AND COOLING</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

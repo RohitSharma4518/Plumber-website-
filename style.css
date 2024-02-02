@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+#mainfoot{
+    display:flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+
+.footer_list {
+    color: green;
+}
+
+#left {
+    padding: 80px 0px 50px 0px;
+    background-color: rgb(54, 184, 54);
+    color: white;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact {
+    display: flex;
+    
+}
+
+#right{
+    padding: 80px 0px 50px 0px;
+    display: flex;
+    text-align: start;
+    width: 50%;
+    color: rgb(54, 184, 54);
+    flex-direction: column;
+    align-items:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(238, 235, 235);
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 15px 25px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border-radius: 40px;
+  }
+
+#btn1 {
+    width: 40%;
+    padding: 15px 25px;
+    border-radius: 40px;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+}
+
+#blog {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 70px;
+    column-gap: 80px;
+}
+
+#btn2 {
+    padding: 15px 25px;
+    border-radius: 40px;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+}
+
+.blogs {
+    color: green;
+}
+
+
+#details {
+    display: inline-grid;
+    width: 100%;
+    background-color: rgb(54, 184, 54);
+    color: white;
+    grid-template-columns: auto auto auto;
+    padding: 100px;
+    column-gap: 0px;
+}
+
+
+
+#plumberimg{
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+#imgtext{
+    position: absolute;
+    padding: 200px;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+#services{
+    width: 100%;
+    display: flex;
+    background-color: green;
+}
+
+.servicespic1 {
+    background-repeat: no-repeat;
+}
+
+#servicepic2{
+    position: relative;
+}
+
+
+#servicetext1 {
+    position: absolute;
+    padding-top: 45%;
+    color: white;
+    padding-left: 30%;
+}
+
+
+#servicepic3{
+    display: flex;
+    width: 100%;
+}
+
+
+#servicetext3 {
+    padding-top: 70%;
+    color: white;
+    padding-left: 30%;
+}
+
+#page1{
+        background-repeat:no-repeat;
+        background-size: contain;
+        background-position: center;
+}
+
+#img1 {
+    width: 100%;
+    height: auto;
+}
+
+
+#startpage {
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#head{
+    font-size: 50px;
+    font-weight: 500;
+    color: green;
+}
+
+#btn3 {
+    margin-top: 40px;
+    padding: 15px 25px;
+    border-radius: 40px;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding: 80px;
+}
+.grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+    padding-left: 250px;;
+}
+.grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: grey;
+    font-size: 40px;
+    text-align: left;
+}
+
+#img3{
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#content {
+    position: absolute;
+    width: 100%;
+    padding-top: 200px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.grid-container2 {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    row-gap: 50px; 
+    column-gap: 50px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: white;
+    padding: 100px;
+  }
+  .grid-item3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(54, 184, 54);
+    width: 100%;
+    border: 5px solid white;
+    border-style: dotted;
+    border-spacing: -10px;
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+#btn4 {
+padding: 15px 25px;
+border-radius: 40px;
+background-color: purple;
+color: white;
+font-size: 20px;
+}
+
+.header-right
+{
+    float: right;
+    align-items:center;
+    align-content: space-between;
+    padding: 50px 50px 0px 0px;
+}
+
+#btn5
+{
+    padding: 5px 20px; 
+    border-radius: 40px;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+  }
+
+.down 
+{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
+
+#offerimg {
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.flex-container {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.flex-container > #div1 {
+    width: 50%;
+    padding: 250px;
+}
+
+.flex-container > #div2 {
+width: 50%;
+padding-top: 300px;;
+}
+
+
+#btn6 {
+    margin-top: 40px;
+    padding: 20px 20px;
+    width: 200px;
+    border-radius: 40px;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+#scrollable {
+    width: 50%;
+    overflow-x: scroll;
+}
+
+#scrollcontent {
+    width: 100%;
+}
+
+#scrollable {
+    width: 100%;
+    overflow-x: scroll;
+  }
+#scrollcontent {
+    width: 200%;
+    margin: 10px;
+  }
+
+  .grid-container10 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    background-color: rgb(237, 232, 232);
+    padding: 10px;
+    width: 200%;
+  }
+  .grid-item10 {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(237, 232, 232);
+  }
+
+  #slide {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
